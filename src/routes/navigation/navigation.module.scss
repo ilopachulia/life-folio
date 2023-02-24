@@ -2,16 +2,17 @@ $primary-text-color: #f9cc0b;
 $primary-background-color: #0c1d36;
 
 .navigation {
-  height: 70px;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 25px;
   background-color: $primary-background-color;
+  padding: 0rem 2.5rem;
+  text-transform: uppercase;
 
   .logo_container {
     height: 100%;
-    width: 70px;
+    width: 7rem;
     display: flex;
     justify-content: center;
     align-items: center;

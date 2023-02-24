@@ -1,11 +1,15 @@
+import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
+import Slider from "../../components/slider/silder.component";
 
 const Home = () => {
   return (
-    <div>
+    <Fragment>
       <Outlet />
-      <div>Home Component</div>
-    </div>
+      <div>
+        <Slider />
+      </div>
+    </Fragment>
   );
 };
 
