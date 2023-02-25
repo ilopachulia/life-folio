@@ -26,9 +26,12 @@ $emphasizer-color: #0048ff;
   }
 
   .text_container {
-    width: 15rem;
-    height: 15rem;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 25rem;
     color: $primary-text-color;
 
     h1 {
@@ -39,7 +42,7 @@ $emphasizer-color: #0048ff;
     p {
       font-size: 1.6rem;
       font-weight: 400;
-      
+      margin-bottom: 2rem;
     }
   }
 }
