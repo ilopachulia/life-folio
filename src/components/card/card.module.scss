@@ -1,9 +1,12 @@
+$primary-text-color: #f9cc0b;
+$primary-background-color: #0c1d36;
+$secondary-background-color: #0c6385;
 $emphasizer-color: #0048ff;
 
 .card_container {
   width: 30rem;
-  height: 40rem;
-  background-color: grey;
+  height: 25rem;
+  background-color: #0c6385;
   border: 0.01rem solid grey;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -11,6 +14,8 @@ $emphasizer-color: #0048ff;
 
   &:hover {
     transform: scale(1.05);
+    width: 50rem;
+    height: 50rem;
   }
 
   img {
@@ -23,5 +28,18 @@ $emphasizer-color: #0048ff;
   .text_container {
     width: 15rem;
     height: 15rem;
+    margin: 0 auto;
+    color: $primary-text-color;
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    p {
+      font-size: 1.6rem;
+      font-weight: 400;
+      
+    }
   }
 }

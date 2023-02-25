@@ -21,5 +21,5 @@ export const DUMMY_PROJECTS = [
       "It's a Resume Generator, which is created by React and useReducer Hook",
     img: "../../assets/ResumeGenerator.png",
     website: "https://magenta-chaja-dea9f2.netlify.app/",
-  },
+  }
 ];
