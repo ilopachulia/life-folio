@@ -1,0 +1,13 @@
+$primary-text-color: #f9cc0b;
+$primary-background-color: #0c1d36;
+$emphasizer-color: #0048ff;
+
+.projects_container {
+  background-color: $primary-background-color;
+  height: 90vh;
+  padding: 0rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  place-items: center;
+}
