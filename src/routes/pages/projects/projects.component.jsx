@@ -1,5 +1,5 @@
 import classes from "./projects.module.scss";
-import Card from "./card/card.component";
+import Card from "../../../components/card/card.component";
 import { DUMMY_PROJECTS } from "../../../helper/project-list";
 
 const Projects = () => {

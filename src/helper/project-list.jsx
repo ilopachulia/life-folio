@@ -1,31 +1,25 @@
 export const DUMMY_PROJECTS = [
   {
     id: 1,
-    title: "First",
-    description: "GREAT PROJECT FOR BEGINNERS",
-    img: "../../../assets/profilepic.png",
+    title: "Food App",
+    description: "It's a basic food app created by useContext Hook",
+    img: "../../assets/FoodApp.png",
+    website: "https://charming-sfogliatella-ca0c14.netlify.app/",
   },
   {
     id: 2,
-    title: "First",
-    description: "GREAT PROJECT FOR BEGINNERS",
-    img: "../../../assets/profilepic.png",
-  },
-  {
-    id: 7,
-    title: "First",
-    description: "GREAT PROJECT FOR BEGINNERS",
+    title: "Omnifood",
+    description:
+      "It's a website of company - Omnifood, creates using only HTML and CSS",
+    img: "../../assets/OmniFood.png",
+    website: "https://secondomnifood.netlify.app/",
   },
   {
     id: 3,
-    title: "First",
-    description: "GREAT PROJECT FOR BEGINNERS",
-    img: "../../../assets/profilepic.png",
-  },
-  {
-    id: 4,
-    title: "First",
-    description: "GREAT PROJECT FOR BEGINNERS",
-    img: "../../../assets/profilepic.png",
+    title: "Resume Generator",
+    description:
+      "It's a Resume Generator, which is created by React and useReducer Hook",
+    img: "../../assets/ResumeGenerator.png",
+    website: "https://magenta-chaja-dea9f2.netlify.app/",
   },
 ];

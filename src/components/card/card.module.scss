@@ -1,0 +1,27 @@
+$emphasizer-color: #0048ff;
+
+.card_container {
+  width: 30rem;
+  height: 40rem;
+  background-color: grey;
+  border: 0.01rem solid grey;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  overflow: hidden;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    height: 25rem;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    object-fit: cover;
+  }
+
+  .text_container {
+    width: 15rem;
+    height: 15rem;
+  }
+}
