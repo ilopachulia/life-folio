@@ -11,7 +11,12 @@ const Navigation = () => {
           <Logo className={classes.logo} />
         </Link>
         <div className={classes.nav_links_container}>
-          <NavLink to="projects" className={classes.nav_link}>
+          <NavLink
+            to="projects"
+            className={({ isActive }) =>
+              isActive ? `${classes.active}` : `${classes.nav_link}`
+            }
+          >
             Projects
           </NavLink>
           <NavLink
@@ -30,13 +35,28 @@ const Navigation = () => {
           >
             Blog
           </NavLink>
-          <NavLink to="hobby" className={classes.nav_link}>
+          <NavLink
+            to="hobby"
+            className={({ isActive }) =>
+              isActive ? `${classes.active}` : `${classes.nav_link}`
+            }
+          >
             Hobby
           </NavLink>
-          <NavLink to="contact" className={classes.nav_link}>
+          <NavLink
+            to="contact"
+            className={({ isActive }) =>
+              isActive ? `${classes.active}` : `${classes.nav_link}`
+            }
+          >
             Contact
           </NavLink>
-          <NavLink to="about" className={classes.nav_link}>
+          <NavLink
+            to="about"
+            className={({ isActive }) =>
+              isActive ? `${classes.active}` : `${classes.nav_link}`
+            }
+          >
             About
           </NavLink>
         </div>
