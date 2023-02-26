@@ -1,0 +1,81 @@
+$primary-text-color: #f9cc0b;
+$primary-background-color: #0c1d36;
+$emphasizer-color: #0048ff;
+
+.hobby_container {
+  background-color: $primary-background-color;
+  min-height: 90vh;
+  padding: 0rem 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  .sub_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10rem;
+
+    .text_container {
+      width: 60%;
+      font-size: 2rem;
+      animation-name: moveInLeft;
+      animation-duration: 2s;
+      animation-timing-function: ease-out;
+      text-transform: uppercase;
+      font-style: italic;
+
+      span {
+        color: $emphasizer-color;
+        padding: 0.5rem;
+      }
+    }
+    .img_container {
+      width: 40%;
+      animation-name: moveInRight;
+      animation-duration: 2s;
+      animation-timing-function: ease-out;
+
+      img {
+        height: 20rem;
+        width: 42rem;
+        border-radius: 1rem;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

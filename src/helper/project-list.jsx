@@ -9,16 +9,14 @@ export const DUMMY_PROJECTS = [
   {
     id: 2,
     title: "Omnifood",
-    description:
-      "Omnifood - Food delivery app, created by HTML and CSS.",
+    description: "Omnifood - Food delivery app, created by HTML and CSS.",
     img: "../../images/OmniFood.jpg",
     website: "https://secondomnifood.netlify.app/",
   },
   {
     id: 3,
     title: "Resume Generator",
-    description:
-      "It's a Resume Generator, which is created by React.",
+    description: "It's a Resume Generator, which is created by React.",
     img: "../../images/ResumeGenerator.jpg",
     website: "https://magenta-chaja-dea9f2.netlify.app/",
   },
@@ -28,5 +26,12 @@ export const DUMMY_PROJECTS = [
     description: "It's a simple Calculator, which is created by React.",
     img: "../../images/calc.jpg",
     website: "https://peppy-elf-90bed5.netlify.app/",
+  },
+  {
+    id: 5,
+    title: "Star Wars Characters",
+    description: "Star War list, with some info in it. Created by React.",
+    img: "../../images/starwars.jpg",
+    website: "https://idyllic-babka-fcecac.netlify.app/",
   },
 ];

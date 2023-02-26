@@ -4,7 +4,7 @@ $emphasizer-color: #0048ff;
 
 .slider_container {
   background-color: $primary-background-color;
-  height: 90vh;
+  min-height: 90vh;
   padding: 0rem 20rem;
   display: flex;
   justify-content: center;
@@ -21,7 +21,7 @@ $emphasizer-color: #0048ff;
 
     span {
       color: $emphasizer-color;
-      padding: 5px;
+      padding: 0.5rem;
     }
   }
   .img_container {
