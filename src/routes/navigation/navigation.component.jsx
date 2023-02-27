@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import classes from "./navigation.module.scss";
 import { NavLink, Link, Outlet } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/crown.svg";
+import DownloadButton from "../../components/download-button/download-button.component";
 
 const Navigation = () => {
   return (
@@ -19,14 +20,9 @@ const Navigation = () => {
           >
             Projects
           </NavLink>
-          <NavLink
-            to="resume"
-            className={({ isActive }) =>
-              isActive ? `${classes.active}` : `${classes.nav_link}`
-            }
-          >
-            Resume
-          </NavLink>
+          <DownloadButton styles="download_button">
+            Download RESUME
+          </DownloadButton>
           <NavLink
             to="education"
             className={({ isActive }) =>

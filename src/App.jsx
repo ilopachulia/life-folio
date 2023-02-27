@@ -6,7 +6,6 @@ import Projects from "./routes/pages/projects/projects.component";
 import About from "./routes/pages/about/about.component";
 import Hobby from "./routes/pages/hobby/hobby.component";
 import Contact from "./routes/pages/contact/contact.component";
-import Resume from "./routes/pages/resume/resume.component";
 import Education from "./routes/pages/education/education.component";
 
 function App() {
@@ -15,7 +14,6 @@ function App() {
       <Route path="/" element={<Navigation />}>
         <Route index={true} element={<Home />} />
         <Route path="projects" element={<Projects />} />
-        <Route path="resume" element={<Resume />} />
         <Route path="education" element={<Education />} />
         <Route path="hobby" element={<Hobby />} />
         <Route path="contact" element={<Contact />} />
