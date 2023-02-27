@@ -20,6 +20,22 @@ const Navigation = () => {
             Projects
           </NavLink>
           <NavLink
+            to="resume"
+            className={({ isActive }) =>
+              isActive ? `${classes.active}` : `${classes.nav_link}`
+            }
+          >
+            Resume
+          </NavLink>
+          <NavLink
+            to="education"
+            className={({ isActive }) =>
+              isActive ? `${classes.active}` : `${classes.nav_link}`
+            }
+          >
+            Education
+          </NavLink>
+          <NavLink
             to="https://github.com/Makata1962"
             target="_blank"
             rel="noopener"
