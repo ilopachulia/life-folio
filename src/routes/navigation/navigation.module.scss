@@ -32,7 +32,7 @@ $emphasizer-color: #0048ff;
     justify-content: flex-end;
 
     .nav_link {
-      padding: .4rem 1.5rem;
+      padding: 0.4rem 1.5rem;
       cursor: pointer;
 
       &:hover {
@@ -45,7 +45,7 @@ $emphasizer-color: #0048ff;
 }
 
 .active {
-  padding: 1rem 1.5rem;
+  padding: 0.4rem 1.5rem;
   background-color: $primary-text-color;
   color: $emphasizer-color;
   border-radius: 0.5rem;
