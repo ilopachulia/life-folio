@@ -34,4 +34,32 @@ export const DUMMY_PROJECTS = [
     img: "../../images/starwars.jpg",
     website: "https://idyllic-babka-fcecac.netlify.app/",
   },
+  {
+    id: 6,
+    title: "E-commerce",
+    description: "Simple e-commerce app",
+    img: "../../images/e-commerce.jpg",
+    website: "https://lucky-smakager-74b0e2.netlify.app/",
+  },
+  {
+    id: 7,
+    title: "Monsters Rolodex",
+    description: "Monsters Rolodex App",
+    img: "../../images/monsters-rolodex.jpg",
+    website: "https://harmonious-melba-60c738.netlify.app/",
+  },
+  {
+    id: 8,
+    title: "Landing Page with SCSS",
+    description: "Landing Page created by HTML & SCSS to master SCSS",
+    img: "../../images/webpage-scss.jpg",
+    website: "https://imaginative-madeleine-007077.netlify.app/",
+  },
+  {
+    id: 9,
+    title: "Random Company's webpage",
+    description: "Landing Page created by HTML & CSS",
+    img: "../../images/webpage-css.jpg",
+    website: "https://stirring-dasik-8892a8.netlify.app/",
+  },
 ];

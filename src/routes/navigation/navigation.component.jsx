@@ -63,14 +63,7 @@ const Navigation = () => {
           >
             Contact
           </NavLink>
-          <NavLink
-            to="about"
-            className={({ isActive }) =>
-              isActive ? `${classes.active}` : `${classes.nav_link}`
-            }
-          >
-            About
-          </NavLink>
+          
         </div>
       </div>
       <Outlet />
