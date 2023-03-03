@@ -33,6 +33,7 @@ $emphasizer-color: #0048ff;
 
     .nav_link {
       padding: 0.4rem 1.5rem;
+      margin-right: 1rem;
       cursor: pointer;
 
       &:hover {
@@ -41,12 +42,13 @@ $emphasizer-color: #0048ff;
         border-radius: 0.5rem;
       }
     }
-  }
-}
 
-.active {
-  padding: 0.4rem 1.5rem;
-  background-color: $primary-text-color;
-  color: $emphasizer-color;
-  border-radius: 0.5rem;
+    .active {
+      padding: 0.4rem 1.5rem;
+      background-color: $primary-text-color;
+      color: $emphasizer-color;
+      border-radius: 0.5rem;
+      margin-right: 1rem;
+    }
+  }
 }
