@@ -43,20 +43,28 @@ export const DUMMY_PROJECTS = [
   },
   {
     id: 7,
+    title: "Infinite Scrolling",
+    description: "Implemented infinite scrolling by React",
+    img: "../../images/infinite-scroll.png",
+    website: "https://github.com/Makata1962/Sweeft-Infinite-Scroll",
+  },
+
+  {
+    id: 8,
     title: "Monsters Rolodex",
     description: "Monsters Rolodex App",
     img: "../../images/monsters-rolodex.jpg",
     website: "https://harmonious-melba-60c738.netlify.app/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Landing Page with SCSS",
     description: "Landing Page created by HTML & SCSS to master SCSS",
     img: "../../images/webpage-scss.jpg",
     website: "https://imaginative-madeleine-007077.netlify.app/",
   },
   {
-    id: 9,
+    id: 10,
     title: "Random Company's webpage",
     description: "Landing Page created by HTML & CSS",
     img: "../../images/webpage-css.jpg",
